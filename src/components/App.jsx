@@ -37,7 +37,7 @@ function App({ step = 1 }) {
           />
         </Section>
 
-        <Section title={Statistics}>
+        <Section title={"Statistics"}>
           {countTotalFeedback() === 0 ? (
             <Notification message="There is no feedback" />
           ) : (
